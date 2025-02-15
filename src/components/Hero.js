@@ -3,14 +3,7 @@ import { scrollToProducts } from "../utils/scrollToProducts";
 
 
 const Hero = () => {
-  // Function to scroll to the products section
-  const handleScroll = () => {
-    const productsSection = document.getElementById("products");
-    if (productsSection) {
-      productsSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
+  
   return (
     <section
       className="h-[800px] bg-cover bg-center py-24 flex items-center relative"
